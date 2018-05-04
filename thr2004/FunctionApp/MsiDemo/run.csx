@@ -25,12 +25,7 @@ public static HttpClient InitializeTokenClient() {
 // Interacting with MSI
 public static HttpClient tokenClient = InitializeTokenClient();
 public static async Task<string> GetToken(string resource, string apiversion)  {
-    string endpoint = String.Format("{0}/?resource={1}&api-version={2}", 
-        Environment.GetEnvironmentVariable("MSI_ENDPOINT"),
-        resource,
-        apiversion
-    );
-    tokenClient.DefaultRequestHeaders.Add("Secret", Environment.GetEnvironmentVariable("MSI_SECRET"));
+    string endpoint = String.Format("?resource={0}&api-version={1}", resource, apiversion);
     JObject tokenServiceResponse = JsonConvert.DeserializeObject<JObject>(await tokenClient.GetStringAsync(endpoint));
     return tokenServiceResponse["access_token"].ToString();
 }
