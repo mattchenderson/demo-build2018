@@ -61,7 +61,6 @@
             ],
             "properties": {
                 "siteConfig": {
-                    "AlwaysOn": true,
                     "appSettings": [
                         {
                             "name": "AzureWebJobsDashboard",
