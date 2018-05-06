@@ -1,0 +1,10 @@
+{
+    "frameworks": {
+      "net46":{
+        "dependencies": {
+          "Microsoft.Azure.Services.AppAuthentication": "1.0.1",
+          "Microsoft.Azure.KeyVault": "2.3.2"
+        }
+      }
+     }
+  }
