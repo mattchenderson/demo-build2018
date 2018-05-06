@@ -17,9 +17,15 @@ namespace LinuxAuthDemo.Controllers
 
         public IActionResult About()
         {
+            var foo = Request.Headers.Keys.ToList<string>();
+            var model = new List<Header>();
+            foreach (var key in foo)
+            {
+                model.Add(new Header {Key = key, Value = Request.Headers[key]});
+            }
             ViewData["Message"] = "Your application description page.";
 
-            return View();
+            return View(model);
         }
 
         public IActionResult Contact()

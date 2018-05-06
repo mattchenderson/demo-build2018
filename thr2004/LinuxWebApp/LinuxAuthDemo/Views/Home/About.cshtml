@@ -1,7 +1,16 @@
-﻿@{
+﻿@model IEnumerable<Header>
+
+@{
     ViewData["Title"] = "About";
 }
 <h2>@ViewData["Title"]</h2>
 <h3>@ViewData["Message"]</h3>
 
 <p>Use this area to provide additional information.</p>
+@foreach (var item in Model)
+{
+    <div>
+        @item.Key: @item.Value
+        <br />
+    </div>
+}
