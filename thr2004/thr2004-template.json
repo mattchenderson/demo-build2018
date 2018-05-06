@@ -97,22 +97,7 @@
                         }
                     ]
                 }
-            },
-            "resources": [
-                {
-                    "apiVersion": "2015-08-01",
-                    "name": "web",
-                    "type": "sourcecontrols",
-                    "dependsOn": [
-                        "[resourceId('Microsoft.Web/Sites', variables('webAppName'))]"
-                    ],
-                    "properties": {
-                        "RepoUrl": "https://github.com/mattchenderson/demo-build2018.git",
-                        "branch": "master",
-                        "IsManualIntegration": true
-                    }
-                }
-            ]
+            }
         },
         {
             "type": "Microsoft.Storage/storageAccounts",
