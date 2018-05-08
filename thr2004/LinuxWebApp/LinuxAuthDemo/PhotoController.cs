@@ -39,7 +39,7 @@ namespace LinuxAuthDemo
             var clientId = Environment.GetEnvironmentVariable("WEBSITE_AUTH_CLIENT_ID");
             var clientSecret = Environment.GetEnvironmentVariable("WEBSITE_AUTH_CLIENT_SECRET");
 
-            AuthenticationContext ac;
+            AuthenticationContext ac = new AuthenticationContext("https://login.microsoftonline.com/microsoft.com");
             AuthenticationResult ar = await ac.AcquireTokenAsync("https://graph.microsoft.com", new ClientCredential(clientId, clientSecret), new UserAssertion(appToken));
             return ar.AccessToken;
         }
