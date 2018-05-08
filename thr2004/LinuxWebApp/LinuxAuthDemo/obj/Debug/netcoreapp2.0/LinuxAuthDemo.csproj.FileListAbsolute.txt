@@ -1,0 +1,8 @@
+C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\bin\Debug\netcoreapp2.0\LinuxAuthDemo.deps.json
+C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\bin\Debug\netcoreapp2.0\LinuxAuthDemo.runtimeconfig.json
+C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\bin\Debug\netcoreapp2.0\LinuxAuthDemo.runtimeconfig.dev.json
+C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\bin\Debug\netcoreapp2.0\LinuxAuthDemo.dll
+C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\obj\Debug\netcoreapp2.0\LinuxAuthDemo.csprojAssemblyReference.cache
+C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\obj\Debug\netcoreapp2.0\LinuxAuthDemo.csproj.CoreCompileInputs.cache
+C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\obj\Debug\netcoreapp2.0\LinuxAuthDemo.AssemblyInfoInputs.cache
+C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\obj\Debug\netcoreapp2.0\LinuxAuthDemo.AssemblyInfo.cs

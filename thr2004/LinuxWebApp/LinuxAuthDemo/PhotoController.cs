@@ -31,7 +31,7 @@ namespace LinuxAuthDemo
 
             HttpClient client = new HttpClient();
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", graphToken);
-            return await client.GetAsync("https://graph.microsoft.com/v1.0/me/");
+            return await client.GetAsync("https://graph.microsoft.com/v1.0/me/photo/$value");
         }
 
         private async Task<string> GetGraphTokenOnBehalfOfUser(string appToken)
