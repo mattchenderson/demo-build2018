@@ -26,7 +26,7 @@ namespace LinuxAuthDemo
             //X-MS-TOKEN-AAD-EXPIRES-ON 
             //X-MS-TOKEN-AAD-REFRESH-TOKEN 
             //X-MS-TOKEN-AAD-ID-TOKEN 
-            string appToken = Request.Headers["X-MS-TOKEN-AAD-ACCESS-TOKEN"];
+            string appToken = Request.Headers["X-MS-TOKEN-AAD-ID-TOKEN"];
             var graphToken = await GetGraphTokenOnBehalfOfUser(appToken);
 
             HttpClient client = new HttpClient();

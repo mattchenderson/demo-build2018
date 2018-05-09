@@ -14,5 +14,5 @@
     az group delete -n $g --yes
 }
 
-superDelete -g thr2004
+#superDelete -g thr2004
 superDelete -g thr3302

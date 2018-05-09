@@ -1,0 +1,22 @@
+{
+    "bindings": [
+      {
+        "authLevel": "anonymous",
+        "name": "req",
+        "type": "httpTrigger",
+        "direction": "in"
+      },
+      {
+        "name": "myOneDriveFile",
+        "type": "onedrive",
+        "direction": "out",
+        "path": "{query.filename}",
+        "identity": "userFromRequest"
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "out"
+      }
+    ]
+  }

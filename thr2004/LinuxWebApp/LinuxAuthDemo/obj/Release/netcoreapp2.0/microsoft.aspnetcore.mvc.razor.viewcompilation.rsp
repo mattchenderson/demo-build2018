@@ -1,0 +1,12 @@
+C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=LinuxAuthDemo
+--content-root=C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo
+--file=C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\Views\Home\About.cshtml
+--file=C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\Views\Home\Contact.cshtml
+--file=C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\Views\Home\Index.cshtml
+--file=C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\Views\Shared\Error.cshtml
+--file=C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\Views\Shared\_Layout.cshtml
+--file=C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\Views\_ViewImports.cshtml
+--file=C:\Users\mahender\Documents\GitHub\demo-build2018\thr2004\LinuxWebApp\LinuxAuthDemo\Views\_ViewStart.cshtml

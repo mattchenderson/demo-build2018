@@ -1,0 +1,16 @@
+{
+    "bindings": [
+      {
+        "name": "req",
+        "type": "httpTrigger",
+        "direction": "in",
+        "authLevel": "anonymous"
+      },
+      {
+        "name": "message",
+        "type": "outlook",
+        "direction": "out",
+        "identity": "userFromRequest"
+      }
+    ]
+  }

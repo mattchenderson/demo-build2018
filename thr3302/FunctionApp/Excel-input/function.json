@@ -1,0 +1,23 @@
+{
+    "bindings": [
+      {
+        "authLevel": "anonymous",
+        "name": "req",
+        "type": "httpTrigger",
+        "direction": "in"
+      },
+      {
+        "type": "excel",
+        "direction": "in",
+        "name": "excelTableData",
+        "path": "{query.workbook}",
+        "identity": "UserFromRequest",
+        "tableName": "{query.table}"
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "out"
+      }
+    ]
+  }
